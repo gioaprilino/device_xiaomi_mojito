@@ -216,7 +216,11 @@ ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_SCREEN_DENSITY := 440
 
 # Security patch level
+<<<<<<< HEAD
 VENDOR_SECURITY_PATCH := 2023-03-01
+=======
+VENDOR_SECURITY_PATCH := 2023-04-05
+>>>>>>> 8d32965 (sunny: Update blobs from MIUI V14.0.3.0.SKGMIXM)
 
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmsteppe
