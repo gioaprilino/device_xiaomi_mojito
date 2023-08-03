@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # All unpinned blobs below are extracted from miui_MOJITOGlobal_V14.0.2.0.SKGMIXM_aa6b0021f8_12.0
-=======
-# All unpinned blobs below are extracted from sunny-user 12 RKQ1.210614.002 V14.0.3.0.SKGMIXM
->>>>>>> 01c0459 (sunny: Update blobs from MIUI V14.0.3.0.SKGMIXM)
 
 # ADSP
 vendor/bin/adsprpcd
