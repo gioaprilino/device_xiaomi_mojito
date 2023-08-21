@@ -102,6 +102,9 @@ ro.mot.eri.losalert.delay=1000
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
 
+# Sensor
+persist.vendor.sensors.enable.mag_filter=true
+
 # Storage.xml moment
 persist.sys.binary_xml=false
 
