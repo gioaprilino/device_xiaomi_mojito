@@ -98,6 +98,7 @@ on boot
     chown system system /sys/class/thermal/thermal_message/balance_mode
     chown system system /sys/class/thermal/thermal_message/charger_temp
 
+<<<<<<< HEAD
     chown system system /dev/cpuset/cgroup.procs
     chown system system /dev/cpuset/foreground/cgroup.procs
     chown system system /dev/cpuset/background/cgroup.procs
@@ -152,11 +153,13 @@ on property:sys.boot_completed=1
     # Setup scheduler tunables
     write /proc/sys/kernel/sched_child_runs_first 1
     
-    # Allow system to manipulate DC Dim and HBM nodes
+    # Allow system to manipulate DC Dim, HBM and FPS Counter nodes
     chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm6150l@5:qcom,lcdb@ec00/regulator/regulator.63/soc:qcom,dsi-display-lab/anti_flicker
     chmod 0660 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm6150l@5:qcom,lcdb@ec00/regulator/regulator.63/soc:qcom,dsi-display-lab/anti_flicker
     chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm6150l@5:qcom,lcdb@ec00/regulator/regulator.63/soc:qcom,dsi-display-lab/hbm
     chmod 0660 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm6150l@5:qcom,lcdb@ec00/regulator/regulator.63/soc:qcom,dsi-display-lab/hbm
+    chown system graphics /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps
+    chmod 0660 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps
 
     # Elliptic
     chmod 0666 /dev/elliptic0
