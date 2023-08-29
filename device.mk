@@ -381,21 +381,17 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-   ApertureOverlay \
-   ApertureDevOverlay \
-   CarrierConfigOverlay \
-   DialerOverlay \
-   MiatollFrameworks \
-   MiatollSystemUI \
-   SettingsLibOverlay \
-   SettingsOverlay \
-   TelephonyOverlay \
-   TetheringConfigOverlay \
-   WifiOverlay
-
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-bliss   
-
+    ApertureMojito \
+    BoostFrameworkOverlay \
+    CarrierConfigMojito \
+    DialerMojito \
+    FrameworksMojito \
+    SettingsMojito \
+    MojitoDisplayFeatures \
+    SettingsProviderMojito \
+    SystemUIMojito \
+    TelephonyMojito \
+    WifiMojito
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
