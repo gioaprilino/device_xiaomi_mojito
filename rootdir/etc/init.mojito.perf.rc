@@ -7,7 +7,3 @@ write /proc/irq/222/smp_affinity_list 1
 
 # Disable multiple kswapd threads
 write /proc/sys/vm/kswapd_threads 1
-
-on property:persist.sys.device_provisioned=1
-    setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,6
-    setprop dalvik.vm.dex2oat-threads 6
