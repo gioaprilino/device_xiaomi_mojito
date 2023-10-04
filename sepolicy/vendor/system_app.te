@@ -17,6 +17,9 @@ allow system_app sysfs_battery_supply:file { read open getattr };
 
 # Zygote
 allow system_app zygote:unix_stream_socket { getopt };
+<<<<<<< HEAD
 
 allow system_app vendor_sysfs_graphics:dir { search };
 allow system_app vendor_sysfs_graphics:file rw_file_perms;
+=======
+>>>>>>> parent of 574ac30 (mojito: Build KProfiles)
