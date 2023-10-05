@@ -87,7 +87,6 @@ on boot
     start rfs_access
     start mi_thermald
 
-<<<<<<< HEAD
     # default country code
     setprop ro.boot.wificountrycode 00
 
@@ -96,9 +95,8 @@ on boot
     chmod 0660 /sys/module/kprofiles/parameters/auto_kp
     chown system system /sys/kernel/kprofiles/kp_mode
     chmod 0660 /sys/kernel/kprofiles/kp_mode
-=======
+
     chown system system /sys/class/thermal/thermal_message/sconfig
->>>>>>> parent of 574ac30 (mojito: Build KProfiles)
     chown system system /sys/class/thermal/thermal_message/balance_mode
     chown system system /sys/class/thermal/thermal_message/charger_temp
 
@@ -155,15 +153,12 @@ on property:sys.boot_completed=1
     
     # Setup scheduler tunables
     write /proc/sys/kernel/sched_child_runs_first 1
-<<<<<<< HEAD
     
     # Allow system to manipulate DC Dim and HBM nodes
     chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm6150l@5:qcom,lcdb@ec00/regulator/regulator.63/soc:qcom,dsi-display-lab/anti_flicker
     chmod 0660 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm6150l@5:qcom,lcdb@ec00/regulator/regulator.63/soc:qcom,dsi-display-lab/anti_flicker
     chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm6150l@5:qcom,lcdb@ec00/regulator/regulator.63/soc:qcom,dsi-display-lab/hbm
     chmod 0660 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm6150l@5:qcom,lcdb@ec00/regulator/regulator.63/soc:qcom,dsi-display-lab/hbm
-=======
->>>>>>> parent of 574ac30 (mojito: Build KProfiles)
 
     # Elliptic
     chmod 0666 /dev/elliptic0
