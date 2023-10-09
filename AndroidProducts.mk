@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_mojito.mk
+    $(LOCAL_DIR)/aicp_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_mojito-user \
-    superior_mojito-userdebug \
-    superior_mojito-eng
+    aicp_mojito-user \
+    aicp_mojito-userdebug \
+    aicp_mojito-eng
