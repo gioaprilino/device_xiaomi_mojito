@@ -12,16 +12,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
 # Inherit some common Bliss ROM stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Product Specifics
-PRODUCT_NAME := evolution_mojito
+PRODUCT_NAME := derp_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
 PRODUCT_MANUFACTURER := Xiaomi
 
-EVO_BUILD_TYPE=UNOFFICIAL
+DERP_BUILDTYPE := UNOFFICIAL
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
