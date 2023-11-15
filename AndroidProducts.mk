@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_mojito.mk
+    $(LOCAL_DIR)/banana_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_mojito-user \
-    bliss_mojito-userdebug \
-    bliss_mojito-eng
+    banana_mojito-user \
+    banana_mojito-userdebug \
+    banana_mojito-eng
