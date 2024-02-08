@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common BlissRoms stuff.
+# Inherit some common Derpfest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Product Specifics
