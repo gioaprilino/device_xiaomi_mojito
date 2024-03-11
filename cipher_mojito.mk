@@ -23,7 +23,7 @@ PRODUCT_MANUFACTURER := Xiaom
 
 
 # Cipher Ify
-CIPHER_MAINTAINER := UnsatifsedError
+CIPHER_MAINTAINER := gioaprilino
 CIPHER_OFFICIAL := flase
 CIPHER_GAPPS := true
 
