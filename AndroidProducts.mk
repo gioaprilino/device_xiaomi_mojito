@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_mojito.mk
+    $(LOCAL_DIR)/cipher_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_mojito-user \
-    banana_mojito-userdebug \
-    banana_mojito-eng
+    cipher_mojito-user \
+    cipher_mojito-userdebug \
+    cipher_mojito-eng
