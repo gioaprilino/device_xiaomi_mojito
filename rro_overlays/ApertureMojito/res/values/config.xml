@@ -20,7 +20,7 @@
         <item>6</item>
         <item>7</item>
     </string-array>
-<<<<<<< HEAD
+    
 <!-- An array of triplets made of (camera ID, qualities, framerates).
          These video modes will be added to the available
          quality/framerate combinations of a camera device.
@@ -42,8 +42,9 @@
              <string-array name="config_additionalVideoConfigurations">
                  <item>0</item> <item>sd|hd|fhd</item> <item>60|120</item>
                  <item>1</item> <item>sd|hd|fhd</item> <item>60</item>
-             </string-array>
+             </string-array> 
     -->
+    
     <string-array name="config_additionalVideoConfigurations">
         <item>0</item> <item>sd|hd|fhd|uhd</item> <item>24|30|60</item>
         <item>1</item> <item>sd|hd|fhd</item>     <item>24|30</item>
@@ -51,10 +52,7 @@
         <item>4</item> <item>sd|hd</item> <item>30</item>
     </string-array>
     
-=======
-    
 <!-- Whether we should use high resolution output size or not.
          See: StreamConfigurationMap.getHighResolutionOutputSizes() for more info. -->
     <bool name="config_enableHighResolution">true</bool>
->>>>>>> accb0ff (mojito: enable highresolution)
 </resources>
