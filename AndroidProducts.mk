@@ -6,9 +6,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_mojito.mk
+    $(LOCAL_DIR)/halcyon_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_mojito-user \
-    banana_mojito-userdebug \
-    banana_mojito-eng
+    halcyon_mojito-user \
+    halcyon_mojito-userdebug \
+    halcyon_mojito-RELEASE-userdebug \
+    halcyon_mojito-eng
